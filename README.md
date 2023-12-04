@@ -6,7 +6,6 @@ Dieta
   <img src="./assets/readme/imagem1.png" width=25%>
   <img src="./assets/readme/imagem2.png" width=25%>
   <img src="./assets/readme/imagem3.png" width=25%>
-  <img src="./assets/readme/imagem4.png" width=25%>
   <img src="./assets/readme/imagem5.png" width=25%>
   <img src="./assets/readme/imagem6.png" width=25%>
   <img src="./assets/readme/imagem7.png" width=25%>

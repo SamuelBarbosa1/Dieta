@@ -2,7 +2,10 @@ Dieta
 
 > The present project is an App expo managed with a list of tasks using `navigation` e `async storage`. The App covers create, update and delete meals.
 
+<p  align="center">
+  <img src="./assets/readme/imagem1.png" width=25%>
 
+</p>
 
 The project is still under development and the next updates will focus on the following tasks:
 

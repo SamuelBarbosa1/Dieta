@@ -1,9 +1,5 @@
 import { ThemeProvider } from 'styled-components';
-import {
-  useFonts,
-  NunitoSans_400Regular,
-  NunitoSans_700Bold,
-} from '@expo-google-fonts/nunito-sans';
+import { useFonts, NunitoSans_700Bold, NunitoSans_400Regular } from '@expo-google-fonts/nunito-sans';
 import theme from './src/theme';
 import { Loading } from '@components/Loading';
 import { StatusBar } from 'react-native';

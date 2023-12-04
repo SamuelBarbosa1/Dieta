@@ -30,6 +30,7 @@ import { percentage } from '@utils/Calculate';
 import { Meal } from '@storage/meal/mealCreate';
 import { removeDatesWithNoMeals } from '@storage/meal/removeDatesWithNoMeals';
 
+
 export function Home() {
   const theme = useTheme();
   const { navigate } = useNavigation();

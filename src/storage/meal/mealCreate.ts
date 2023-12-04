@@ -27,7 +27,7 @@ export async function mealCreate(mealDate: string, newMeal: Meal) {
       } else {
         newStoredMeals[existingIndex].data.unshift(newMeal);
 
-        // orders meals based on time, largest to smallest
+        // ordena refeições com base no horário, do maior para o menor
         newStoredMeals[existingIndex].data.sort((a, b) => {
           if (a.hour > b.hour) {
             return -1;
@@ -49,10 +49,10 @@ export async function mealCreate(mealDate: string, newMeal: Meal) {
       newStoredMeals.push(newEntry);
 
       newStoredMeals.sort(function (a, b) {
-        // Convert the strings from date to objects from date
+        // Converta as strings de data em objetos de data
         let dateA = new Date(a.title.split('.').reverse().join('-'));
         let dateB = new Date(b.title.split('.').reverse().join('-'));
-        // Compare dates using getTime()
+        // Compare datas usando getTime()
         return dateB.getTime() - dateA.getTime();
       });
 
